@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+*{background-color: black;
+background-attachment: fixed;}
+
+
+
+/* banner başangıç */
+
+.banner {display: flex;
+    background-color: #ffcb04;
+    width: 100%; 
+    height: 130px; 
+    padding: 15px;
+    justify-content: space-around;
+    position: relative;
+}
+
+.banner img{ height: 115px;}    
+
+.banner-right{margin-top: 25px;}
+
+.banner-right,a{
+    display: flex;
+    text-decoration: none;
+    background-color: #ffcb04;
+
+}
+
+.banner-right .ilk{ 
+
+    border: 1px solid black;
+    width: 300px;
+    height: 50px;
+    font-size: large;
+    padding: 10px;
+    background-color: black;
+    color: #ffcb04;
+    font-family: sans-serif;
+}
+
+.banner-right .ilk {justify-content: space-evenly;}
+
+.banner-right .iki{
+
+border: 1px solid black;
+width: 130px;
+height: 50px;
+margin-left: 10px;
+padding: 10px;
+color: rgb(0, 0, 0);
+font-size: x-large;
+font-family: sans-serif;
+
+}
+
+
+
+.icon{background-color: #ffcb04;}
+.icon img{
+   
+    width: 20px;
+    height: 20px;
+    margin-left: 12px;
+    margin-top: 15px;
+}
+    
+select{
+    border: 1px solid #ffcb04;
+    background-color: #ffcb04;
+    position: relative;
+    left: 10px;
+    top:-5px;
+}
+option{background-color: white;}
+
+
+.banner .iki a b{background-color: #ffcb04;}
+
+/* banner bitiş */
+
+/* form başlangıç */
+
+
+
+form{
+position: fixed;
+  
+	width: 100%;
+    position: sticky;
+	
+    top: 0;
+}
+
+
+
+div.form{
+    
+    
+    height: 70px;
+    display: flex;
+    justify-content: center; 
+    background-color: rgb(44, 43, 43);
+}
+
+input{
+    margin-left: 50px; 
+    background-color: white; 
+    width: 354px; 
+    height: 50px;
+    margin-top: 10px;
+    border: 1px solid #ffcb04 ;}
+
+.form a{
+    align-items: center; 
+    width: 270px;
+    margin-left: 50px;
+    color: black;
+    height: 50px;
+    margin-top: 10px;
+    padding: 26px;
+    font-size: large;
+    font-family: sans-serif;
+  
+}
+
+/* form bitiş */
+
+.resim{margin-top:100px;}
+.resim a{justify-content:center;
+    background-color: black;    
+}
+
+
+/*filmler*/
+
+.filmler{display: flex;}
+
+.filmler-1 { display: flex;
+    flex-wrap: wrap;
+margin-top: 40px;
+margin-left: 260px;
+
+
+
+}
+
+
+.filmler-1 a{
+    color: white;
+    background-color: black;
+    margin-top: 40px;
+    flex-direction: column;
+    margin-left: 71px;
+    text-align: center;
+    font-size: large;
+    font-family: sans-serif;
+  
+}
+
+/*filmler bitti*/
+
+/*footter*/
+
+footer{display: flex;}
+
+footer img{margin-left: 710px;
+    margin-top: 100px;}
+
+h1{color: white;
+width: 900px;
+text-align: center;
+margin-left: 500px;
+margin-top: 20px;
+font-family: 'MyrProBoldCond' !important}
+
+button{display: flex;}
+
+button a{ background-color: black; }
+
+button img{flex-wrap: wrap; }
+
+.resim1{
+    
+    height: 144px;
+width: 20px;
+margin-left: -10px;}
+
+.resim2{
+    
+    height: 144px;
+width: 20px;
+margin-left: 151px;
+}
+
+footer .icon {display: flex;
+  
+    margin-top: 146px;  
+    margin-left: 455px;
+    }
+
+.yardim{display: flex;}
+
+.yardim {
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(26, 25, 25);
+    margin-left: 639px;   
+    margin-top: 50px;
+    width: 664px;
+    
+}
+
+.yardim a{
+    color: #ffcb04;
+    background-color: rgb(26, 25, 25);
+    font-size: larger;
+    padding: 18px;
+    margin-left: 235px;
+    font-family: sans-serif;
+}
+
+
+
+
+
